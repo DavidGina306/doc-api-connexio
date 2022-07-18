@@ -1,0 +1,16 @@
+_id: env_eafe85be0d6d4005892b43260f23897a
+type: Environment
+parentId: env_30f43495c3c9cd0a120b9dc1cb339123ea71a6ec
+modified: 1658114549864
+created: 1658111182833
+name: PROD
+data:
+  base_url: https://connexioapi.herokuapp.com/
+  auth_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jb25uZXhpb2FwaS5oZXJva3VhcHAuY29tXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjU4MTE0MzUyLCJleHAiOjE2NTgxMTc5NTIsIm5iZiI6MTY1ODExNDM1MiwianRpIjoiY1h4OGZxUkhUTDF5UWxsSSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.5BxUa36EpU-gxXppUOqmDigk-aXHMWzCZYCSEcDFdEw
+dataPropertyOrder:
+  "&":
+    - base_url
+    - auth_token
+color: null
+isPrivate: false
+metaSortKey: 1658111182833

@@ -1,0 +1,34 @@
+_id: req_aad7c729e16f455e8e2280471683b89c
+type: Request
+parentId: fld_59ae6a0a1d8d488d94285db1426e0728
+modified: 1658114767859
+created: 1658060362500
+url: "{{ _.base_url }}api/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@connexio.com",
+    	"password": "Abc@1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a7301fe896fe4e4faad3d22cf2f6f168
+  - id: pair_90b4c0f41d584253a8873029608e3344
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1658060362500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

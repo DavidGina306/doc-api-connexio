@@ -1,0 +1,41 @@
+_id: req_22575af98c0f45fa909c3075ecd8f08a
+type: Request
+parentId: fld_e10ffb460aba40ff811c58cb8ee67d98
+modified: 1658114876946
+created: 1658064634139
+url: "{{ _.base_url }}api/teachers/search"
+name: Pesquisar Teachers
+description: |-
+  Visualizar os produtos da loja
+
+  ## Parametros de filtro
+  - search
+  - search_areas
+
+
+  **Exemplos:**
+
+  - ?search=Eliot&search_areas=A
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ff0d230d2f8a490b9a9760ebdcf0e6f5
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_181485d705e84c42bf1132f57e155012
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1658064634139
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

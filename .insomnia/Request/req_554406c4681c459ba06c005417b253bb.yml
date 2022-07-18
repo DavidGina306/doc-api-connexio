@@ -1,0 +1,23 @@
+_id: req_554406c4681c459ba06c005417b253bb
+type: Request
+parentId: fld_a4267fd9bffd4f269bdb10f07ce7e30e
+modified: 1658114878071
+created: 1658105096601
+url: " {{ _.base_url }}api/search-areas"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1658105096601
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

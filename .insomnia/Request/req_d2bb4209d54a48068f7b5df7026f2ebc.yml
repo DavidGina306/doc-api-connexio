@@ -1,0 +1,42 @@
+_id: req_d2bb4209d54a48068f7b5df7026f2ebc
+type: Request
+parentId: fld_e10ffb460aba40ff811c58cb8ee67d98
+modified: 1658114876176
+created: 1658060326972
+url: "{{ _.base_url }}api/teachers/1"
+name: Perfil
+description: |
+  Parametros:
+
+  - id <b>number</b>
+
+  Exemplo *Response*: 
+
+  - name <b>string</b>
+  - about <b>string</b>
+  - url_photo <b>string</b>
+  - email <b>string</b>
+  - social_media_1 <b>string</b>,
+  - social_media_2 <b>string</b>
+  - social_media_3 <b>string</b>
+  - id <b>number</b>
+  - contact_1  <b>string</b>
+  - contact_2 <b>string</b>
+  - areas <b>array</b>
+  - projects <b>array</b>
+  - subjects <b>array</b>
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1658057947247.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

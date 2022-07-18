@@ -1,0 +1,23 @@
+_id: req_eec552ac59f14b289f076f5986de1a51
+type: Request
+parentId: fld_59ae6a0a1d8d488d94285db1426e0728
+modified: 1658114861525
+created: 1658114765572
+url: "{{ _.base_url }}api/me"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.auth_token }}"
+metaSortKey: -1658114765572
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
